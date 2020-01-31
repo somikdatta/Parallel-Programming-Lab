@@ -36,5 +36,5 @@ int main(){
   quickSort(array,0,n-1);
   end=clock();
   total=end-start;
-  printf("Total time taken for random sorting: %f\n", (float)total/CLOCKS_PER_SEC);
+  printf("Total time taken for serial sorting: %f\n", (float)total/CLOCKS_PER_SEC);
 }
