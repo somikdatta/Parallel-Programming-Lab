@@ -40,16 +40,6 @@ void mergeSort(size_t a[], size_t l, size_t r)
 				mergeSort(a,m+1,r);
 			}
 		}
-    // #pragma omp parallel
-		// {
-		// 	#pragma omp single
-		// 	{
-    //     #pragma omp task
-		// 		mergeSort(a,l,m);
-    //     #pragma omp task
-    //     mergeSort(a,m+1,r);
-		// 	}
-		// }
 		merge(a,l,m,r);
 	}
 }
