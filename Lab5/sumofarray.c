@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <time.h>
-#define ASIZE 100000
+#define ASIZE 1000000
 int main() {
   clock_t start,end,total;
   int i,sum=0,array[ASIZE];
