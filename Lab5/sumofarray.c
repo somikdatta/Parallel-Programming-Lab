@@ -5,10 +5,10 @@ int main() {
   clock_t start,end,total;
   int i,sum=0,array[ASIZE];
   for(i=0;i<ASIZE;i++)
-    array[ASIZE]=1;
+    array[i]=1;
   start=clock();
   for(i=0;i<ASIZE;i++)
-    sum+=array[ASIZE];
+    sum+=array[i];
   end=clock();
   total=end-start;
   printf("Sum is %d\n", sum);
