@@ -124,3 +124,4 @@ void create_graph()
 			adj[origin][destin] = 1;
 		}
 	}
+}
